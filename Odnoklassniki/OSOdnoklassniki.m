@@ -65,7 +65,7 @@
     [getTokenRequest addPostValue:_clientID  forKey:@"client_id"]; // ID клиента
     [getTokenRequest addPostValue:_appSecretKey forKey:@"client_secret"]; // Секретный ключ
     [getTokenRequest addPostValue:@"authorization_code" forKey:@"grant_type"]; 
-    [getTokenRequest addPostValue:@"ok127410176" forKey:@"redirect_uri"]; // url колбэка
+    [getTokenRequest addPostValue:@"ok*********" forKey:@"redirect_uri"]; // url колбэка
     [getTokenRequest setDelegate:self];
     [getTokenRequest startAsynchronous]; // посылка асинхронного запроса
     
